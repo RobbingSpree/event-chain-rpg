@@ -20,11 +20,16 @@ if active {
 		
 		if x_dir !=0 or y_dir != 0
 			moving = true;
+		floor_check = true;	
+		
 	}
 
 	if moving == true {
 		x+= spd*x_dir;
 		y+= spd*y_dir;
+		if position_meeting(x,y,field) {
+			floor_check = false;
+		}
 	}
 	#endregion
 }

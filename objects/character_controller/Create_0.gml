@@ -1,5 +1,5 @@
 active = true;
-
+floor_check = false;
 facing = 3; //facing direction of characrter
 //0 right
 //1 up
