@@ -28,8 +28,17 @@ if active {
 		x+= spd*x_dir;
 		y+= spd*y_dir;
 		if position_meeting(x,y,field) {
-			floor_check = false;
+			//floor_check = false;
+			
 		}
+	}
+	
+	if menu_toggle {
+		active = false;
+		var l_str = "sub" + string(current_layer+1);
+		layer_create(current_layer+1*-1,l_str);
+		var sub = instance_create_layer(20,20,l_str,sub_area);
+		sub.current_layer = current_layer+1;
 	}
 	#endregion
 }

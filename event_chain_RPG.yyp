@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"water_spr","path":"sprites/water_spr/water_spr.yy",},"order":3,},
+    {"id":{"name":"sub_area","path":"objects/sub_area/sub_area.yy",},"order":4,},
     {"id":{"name":"mountain_spr","path":"sprites/mountain_spr/mountain_spr.yy",},"order":4,},
     {"id":{"name":"character_controller","path":"objects/character_controller/character_controller.yy",},"order":2,},
     {"id":{"name":"character_spr","path":"sprites/character_spr/character_spr.yy",},"order":0,},
@@ -8,6 +9,7 @@
     {"id":{"name":"field","path":"objects/field/field.yy",},"order":0,},
     {"id":{"name":"stats","path":"objects/stats/stats.yy",},"order":1,},
     {"id":{"name":"field_scripts","path":"scripts/field_scripts/field_scripts.yy",},"order":0,},
+    {"id":{"name":"window_spr","path":"sprites/window_spr/window_spr.yy",},"order":7,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":2,},
     {"id":{"name":"tree_spr","path":"sprites/tree_spr/tree_spr.yy",},"order":1,},
     {"id":{"name":"debug_spr","path":"sprites/debug_spr/debug_spr.yy",},"order":6,},

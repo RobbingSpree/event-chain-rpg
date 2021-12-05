@@ -6,8 +6,8 @@ facing = 3; //facing direction of characrter
 //2 left
 //3 down
 spd = 4;
-unit = 16;
 moving = false;
+current_layer = 0;
 
 x_dir = 0;
 y_dir = 0;
