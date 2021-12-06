@@ -2,12 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function playable() constructor{
 	hp = 20;
+	max_hp = 20;
 	str = 5;
 	spd = 5;
 	def = 5;
 	level = 1;
 	xp = 0;
-	name = "Beneven" +string(irandom(9));
+	namewa = "Beneven" +string(irandom(9));
 	job_e = []; //the list of equipped jobs
 	job_e[0] = j.onion;
 	job_e[1] = j.none;
@@ -19,4 +20,12 @@ function playable() constructor{
 enum j { //the list of jobs
 	none,
 	onion
+}
+
+function job_enum_to_name(index){
+	switch index {
+		case j.none: return "No Job"; break;
+		case j.onion: return "Onion"; break;
+		default: return "Not a Job";
+	}
 }
