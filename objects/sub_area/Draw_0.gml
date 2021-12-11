@@ -4,6 +4,7 @@ draw_sprite_ext(sprite_index,0,x,y,image_xscale,image_yscale,0,c_white,1);
 
 //draw field from db
 
+
 //draw player
 draw_sprite(character_spr,0,(px*unit),(py*unit));
 

@@ -18,6 +18,10 @@ enum p{
 	wander
 }
 
+function load_map(map,location){
+	
+}
+
 function get_name(type) {
 	if type == f.town {
 		return "Test Town";
