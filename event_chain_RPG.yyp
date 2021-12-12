@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"character_ui","path":"objects/character_ui/character_ui.yy",},"order":5,},
     {"id":{"name":"water_spr","path":"sprites/water_spr/water_spr.yy",},"order":3,},
+    {"id":{"name":"event_area","path":"objects/event_area/event_area.yy",},"order":6,},
     {"id":{"name":"sub_area","path":"objects/sub_area/sub_area.yy",},"order":4,},
     {"id":{"name":"mountain_spr","path":"sprites/mountain_spr/mountain_spr.yy",},"order":4,},
     {"id":{"name":"character_spr","path":"sprites/character_spr/character_spr.yy",},"order":0,},
