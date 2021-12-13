@@ -18,8 +18,30 @@ enum p{
 	wander
 }
 
-function load_map(map,location){
+function char_to_index(char) {
+	switch char {
+		case "M": return mountain_spr; break; 
+		case "_": return empty_spr; break; 
+		default: return empty_spr; break;
+	}
 	
+}
+
+function load_map(map,location){
+	var m = [];
+	m[0]	= "MMMMMMMMMMM";
+	m[1]	= "M________ M";
+	m[2]	= "M_________M";
+	m[3]	= "M_________M";
+	m[4]	= "M_________M";
+	m[5]	= "M_________M";
+	m[6]	= "M_________M";
+	m[7]	= "M_________M";
+	m[8]	= "M_________M";
+	m[9]	= "M_________M";
+	m[10]	= "MMMMMMMMMMM";
+	
+	return m;
 }
 
 function get_name(type) {

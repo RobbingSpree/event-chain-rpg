@@ -17,3 +17,4 @@ p3 = instance_create_layer(xx,yy+r,"Instances",character_ui);
 p3.index = 2;
 p4 = instance_create_layer(xx+u,yy+r,"Instances",character_ui);
 p4.index = 3;
+

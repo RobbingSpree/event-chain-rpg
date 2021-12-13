@@ -3,7 +3,6 @@ ani_step = 0;
 
 parent_layer = noone;
 //location = -1;
-#macro unit 16
 
 px = 4;
 py = 4;
@@ -16,3 +15,4 @@ active = true;
 map = ds_grid_create(20,20);
 
 load_map(map,location);
+

@@ -13,6 +13,6 @@ y_dir = 0;
 current_layer = 0;
 active = true;
 
-map = ds_grid_create(20,20);
+map = [];
 
-load_map(map,location);
+map = load_map(location);
