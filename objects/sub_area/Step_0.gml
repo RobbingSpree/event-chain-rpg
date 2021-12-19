@@ -28,14 +28,17 @@ if animate == false && active == true {
 	#endregion
 	
 	//if inline with grid
-	if px - floor(px) == 0 && py - floor(py) == 0
+	if px - floor(px) == 0 && py - floor(py) == 0 {
 		moving = false;
+		current_cell = get_cell(px,py,map);
+	}
 	
 	
 	if moving == false {
 		x_dir = right - left;
 		y_dir = down - up;	
 		moving = true;
+		cell_open()
 	}
 	px += 1/unit*x_dir*spd;
 	py += 1/unit*y_dir*spd;

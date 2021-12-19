@@ -19,6 +19,7 @@
     {"id":{"name":"event_icons_spr","path":"sprites/event_icons_spr/event_icons_spr.yy",},"order":10,},
     {"id":{"name":"char_job_ui_arrow_spr","path":"sprites/char_job_ui_arrow_spr/char_job_ui_arrow_spr.yy",},"order":9,},
     {"id":{"name":"window_spr_no_grid","path":"sprites/window_spr_no_grid/window_spr_no_grid.yy",},"order":8,},
+    {"id":{"name":"map input","path":"notes/map input/map input.yy",},"order":15,},
     {"id":{"name":"events","path":"objects/events/events.yy",},"order":3,},
     {"id":{"name":"player_scripts","path":"scripts/player_scripts/player_scripts.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

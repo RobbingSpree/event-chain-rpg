@@ -7,7 +7,7 @@ var h = array_length(map);
 for (var i = 0; i<h; i++) {
 	var str = map[i];
 	var l = string_length(str);
-	for (var k=0; k<l; k++) {
+	for (var k=1; k<l+1; k++) {
 		var c = string_char_at(str,k);
 		c = char_to_index(c);
 		draw_sprite(c,0,x+k*16,y+i*16);
@@ -17,6 +17,9 @@ for (var i = 0; i<h; i++) {
 //draw player
 draw_sprite(character_spr,0,(px*unit),(py*unit));
 
+draw_text(10,10,"Contains: "+current_cell);
+
+/*
 draw_text(10,10,"player x " + string(px));
 draw_text(10,30,"player y "+ string(py));
 draw_text(10,50,"animate flag " +string(animate));

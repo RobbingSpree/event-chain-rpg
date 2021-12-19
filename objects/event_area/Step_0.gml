@@ -27,17 +27,6 @@ if animate == false && active == true {
 	var reject = keyboard_check_pressed(ord("X"));
 	#endregion
 	
-	//if inline with grid
-	if px - floor(px) == 0 && py - floor(py) == 0
-		moving = false;
-	
-	
-	if moving == false {
-		x_dir = right - left;
-		y_dir = down - up;	
-		moving = true;
-	}
-	px += 1/unit*x_dir*spd;
-	py += 1/unit*y_dir*spd;
+	//move through menu
 	
 }
